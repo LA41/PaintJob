@@ -1,5 +1,6 @@
 public class PaintJob {
     public static void main(String[] args) {
+        //couple of checks with 2, 3 or 4 parameters passed
         System.out.println(getBucketCount(10, 4.11));
         System.out.println(getBucketCount(10, 4.11, 20));
         System.out.println(getBucketCount(10, 4.11, 20, 3));
